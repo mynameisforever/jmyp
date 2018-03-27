@@ -1,0 +1,26 @@
+.header {
+  width: 960px;
+  height: 85px;
+  margin: 0 auto; }
+  .header .header-right {
+    padding-top: 35px; }
+  .header .logo {
+    width: 360px;
+    height: 85px;
+    overflow: hidden;
+    float: left;
+    background: url(../images/logo_new_v1.jpg) no-repeat top left; }
+  .header .top-link-lighting, .header .top-link-free, .header .top-link-code {
+    height: 31px;
+    float: right;
+    margin-right: 24px;
+    width: 110px; }
+  .header .top-link-lighting {
+    background: url(../images/header_corn_new_v2.png) no-repeat 0 -64px; }
+  .header .top-link-free {
+    width: 170px;
+    background: url(../images/gild.png); }
+  .header .top-link-code {
+    background: url(../images/header_corn_new_v2.png) no-repeat 0 0; }
+
+/*# sourceMappingURL=hearder.css.map */

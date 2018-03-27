@@ -1,0 +1,208 @@
+.footer{
+    background: white;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+
+    .footer-top{
+        width: 1090px;
+        margin: 0 auto;
+        padding: 30px 0 15px 0;
+        border-bottom: 1px solid #ccc;
+        overflow: hidden;
+        .first_link{
+            width: 130px;
+        }
+        .final_link{
+            width: 134px;
+        }
+        .third-link{
+            width: 160px;
+        }
+        .fourth-link{
+            width: 168px;
+        }
+        .sixth-link{
+            width: 158px;
+        }
+        b{
+            display: block;
+            color: #333;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        a{
+            width: 170px;
+            height: 140px;
+            color: #999;
+            font-size: 14px;
+            display: block;
+            float: left;
+            line-height: 18px;
+            overflow: hidden;
+            text-align: center;
+            .icon{
+                width: 63px;
+                height: 63px;
+                display: block;
+                overflow: hidden;
+                margin: 0 auto 20px;
+                cursor: pointer;
+                background:url(../images/footer_0901.jpg); 
+            }
+            .two{
+                background-position: -64px 0;
+            }
+            .three{
+                background-position: -128px 0;
+            }
+            .four{
+                 background-position: -191px 0;
+            }
+            .five{
+                 background-position: -254px 0;
+            }
+            .six{
+                 background-position: -315px 0;
+            }
+            .seven{
+                 background-position: -380px 0;
+            }
+        }
+    }
+    .footer-center{
+        width: 1090px;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom:20px;
+        overflow: hidden;
+        .jumei-onphone{
+            li{
+                text-align: center;
+            }
+            width: 83px;
+            .app-ma{
+                margin-left: 4px;
+                width: 78px;
+                height: 78px;
+                background: url(../images/header_corn_new_v2.png) no-repeat 0 -423px;
+            }
+        }
+        .jumei-vx{
+            width: 83px;
+            text-align: center;
+            padding-left: 36px;
+            margin-top: 0;
+            height: 146px;
+            color: #666;
+            .vx-ma{
+                margin-left:4px;
+                width: 78px;
+                height: 78px;
+                background: url(../images/jumei_weixin_footer.png);
+            }
+        }
+        ul{
+            width: 156px;
+            height: 143px;
+            padding-left: 16px;
+            float: left;
+            zoom: 1;
+            overflow: hidden;
+            li{
+                white-space: nowrap;
+                font-size: 12px;
+                color: #666;
+            }
+            .title{
+                color: #666;
+                font-size: 14px;
+                font-weight: 700;
+                margin-bottom: 10px;
+                
+            }
+            
+            li:hover a{
+                color: #ea1d5d;
+                transform: translateX(10px);
+                -moz-transform: translateX(10px);
+                -webkit-transform: translateX(10px);
+            }
+            li a{
+                font-size: 12px;
+                height: 22px;
+                line-height: 22px;
+                color: #666;
+                display: block;
+                transition: transform .4s linear;
+                -moz-transition: transform .4s linear;
+                -webkit-transition: transform .4s linear;
+            }
+        }
+    }
+    .footer-pic{
+        height: 95px;
+        background: url(../images/footer_dy.jpg) center top;
+    }
+    .footer-bottom-top{
+        height: 48px;
+        line-height: 48px;
+        overflow: hidden;
+        font-size: 12px;
+        color: #fff;
+        background:url(../images/footer_btm02_bg.jpg) repeat-x;
+        .footer-bottom-top-list{
+            width: 1090px;
+            margin: 0 auto;
+            a{
+                color: #fff;
+                padding-right: 12px;
+                height: 48px;
+                display: inline-block;
+            }
+        }
+    }
+    .footer-bottom-copyright{
+        background: url(../images/newindex_footer_bg.png);
+        line-height: 20px;
+        padding-bottom: 80px;
+        color: #ccc;
+        .copyright-top{
+            width: 1090px;
+            margin: 0 auto;
+            .copyright-content{
+                padding: 14px 0 18px;
+                line-height: 23px;
+                font-size: 12px;
+                a{
+                    color: #ccc;
+                }
+            }
+        }
+        .copy-logo{
+            width: 126px;
+            height: 50px;
+            overflow: hidden;
+            display: inline-block;
+            margin-right: 8px;
+            background: url(../images/footer_btm_icon.png);
+            
+        }
+        .logo02{
+                background-position: -126px 0;
+            }
+        .logo03{
+            background-position: -252px 0
+        }
+        .logo04{
+            background-position: -378px 0;
+        }
+        .logo05{
+            background-position: -504px 0;
+        }
+        .logo06{
+            background: url(../images/bz.jpg);
+            width: 55px;
+            height: 50px;
+        }
+    }
+}

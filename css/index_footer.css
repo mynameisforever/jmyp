@@ -1,0 +1,165 @@
+.footer {
+  background: white;
+  overflow: hidden;
+  border-top: 1px solid #ccc; }
+  .footer .footer-top {
+    width: 1090px;
+    margin: 0 auto;
+    padding: 30px 0 15px 0;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden; }
+    .footer .footer-top .first_link {
+      width: 130px; }
+    .footer .footer-top .final_link {
+      width: 134px; }
+    .footer .footer-top .third-link {
+      width: 160px; }
+    .footer .footer-top .fourth-link {
+      width: 168px; }
+    .footer .footer-top .sixth-link {
+      width: 158px; }
+    .footer .footer-top b {
+      display: block;
+      color: #333;
+      font-size: 16px;
+      line-height: 24px; }
+    .footer .footer-top a {
+      width: 170px;
+      height: 140px;
+      color: #999;
+      font-size: 14px;
+      display: block;
+      float: left;
+      line-height: 18px;
+      overflow: hidden;
+      text-align: center; }
+      .footer .footer-top a .icon {
+        width: 63px;
+        height: 63px;
+        display: block;
+        overflow: hidden;
+        margin: 0 auto 20px;
+        cursor: pointer;
+        background: url(../images/footer_0901.jpg); }
+      .footer .footer-top a .two {
+        background-position: -64px 0; }
+      .footer .footer-top a .three {
+        background-position: -128px 0; }
+      .footer .footer-top a .four {
+        background-position: -191px 0; }
+      .footer .footer-top a .five {
+        background-position: -254px 0; }
+      .footer .footer-top a .six {
+        background-position: -315px 0; }
+      .footer .footer-top a .seven {
+        background-position: -380px 0; }
+  .footer .footer-center {
+    width: 1090px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    overflow: hidden; }
+    .footer .footer-center .jumei-onphone {
+      width: 83px; }
+      .footer .footer-center .jumei-onphone li {
+        text-align: center; }
+      .footer .footer-center .jumei-onphone .app-ma {
+        margin-left: 4px;
+        width: 78px;
+        height: 78px;
+        background: url(../images/header_corn_new_v2.png) no-repeat 0 -423px; }
+    .footer .footer-center .jumei-vx {
+      width: 83px;
+      text-align: center;
+      padding-left: 36px;
+      margin-top: 0;
+      height: 146px;
+      color: #666; }
+      .footer .footer-center .jumei-vx .vx-ma {
+        margin-left: 4px;
+        width: 78px;
+        height: 78px;
+        background: url(../images/jumei_weixin_footer.png); }
+    .footer .footer-center ul {
+      width: 156px;
+      height: 143px;
+      padding-left: 16px;
+      float: left;
+      zoom: 1;
+      overflow: hidden; }
+      .footer .footer-center ul li {
+        white-space: nowrap;
+        font-size: 12px;
+        color: #666; }
+      .footer .footer-center ul .title {
+        color: #666;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 10px; }
+      .footer .footer-center ul li:hover a {
+        color: #ea1d5d;
+        transform: translateX(10px);
+        -moz-transform: translateX(10px);
+        -webkit-transform: translateX(10px); }
+      .footer .footer-center ul li a {
+        font-size: 12px;
+        height: 22px;
+        line-height: 22px;
+        color: #666;
+        display: block;
+        transition: transform .4s linear;
+        -moz-transition: transform .4s linear;
+        -webkit-transition: transform .4s linear; }
+  .footer .footer-pic {
+    height: 95px;
+    background: url(../images/footer_dy.jpg) center top; }
+  .footer .footer-bottom-top {
+    height: 48px;
+    line-height: 48px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #fff;
+    background: url(../images/footer_btm02_bg.jpg) repeat-x; }
+    .footer .footer-bottom-top .footer-bottom-top-list {
+      width: 1090px;
+      margin: 0 auto; }
+      .footer .footer-bottom-top .footer-bottom-top-list a {
+        color: #fff;
+        padding-right: 12px;
+        height: 48px;
+        display: inline-block; }
+  .footer .footer-bottom-copyright {
+    background: url(../images/newindex_footer_bg.png);
+    line-height: 20px;
+    padding-bottom: 80px;
+    color: #ccc; }
+    .footer .footer-bottom-copyright .copyright-top {
+      width: 1090px;
+      margin: 0 auto; }
+      .footer .footer-bottom-copyright .copyright-top .copyright-content {
+        padding: 14px 0 18px;
+        line-height: 23px;
+        font-size: 12px; }
+        .footer .footer-bottom-copyright .copyright-top .copyright-content a {
+          color: #ccc; }
+    .footer .footer-bottom-copyright .copy-logo {
+      width: 126px;
+      height: 50px;
+      overflow: hidden;
+      display: inline-block;
+      margin-right: 8px;
+      background: url(../images/footer_btm_icon.png); }
+    .footer .footer-bottom-copyright .logo02 {
+      background-position: -126px 0; }
+    .footer .footer-bottom-copyright .logo03 {
+      background-position: -252px 0; }
+    .footer .footer-bottom-copyright .logo04 {
+      background-position: -378px 0; }
+    .footer .footer-bottom-copyright .logo05 {
+      background-position: -504px 0; }
+    .footer .footer-bottom-copyright .logo06 {
+      background: url(../images/bz.jpg);
+      width: 55px;
+      height: 50px; }
+
+/*# sourceMappingURL=index_footer.css.map */

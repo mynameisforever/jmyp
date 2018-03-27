@@ -1,0 +1,28 @@
+.footer {
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 80px; }
+  .footer p:nth-of-type(1) {
+    text-align: center;
+    padding: 14px 0 18px;
+    line-height: 23px;
+    font-size: 12px; }
+  .footer p:nth-of-type(2) {
+    text-align: center; }
+    .footer p:nth-of-type(2) a {
+      display: inline-block;
+      height: 50px;
+      width: 126px;
+      margin-right: 8px; }
+    .footer p:nth-of-type(2) a:nth-of-type(1) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -172px; }
+    .footer p:nth-of-type(2) a:nth-of-type(2) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -223px; }
+    .footer p:nth-of-type(2) a:nth-of-type(3) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -274px; }
+    .footer p:nth-of-type(2) a:nth-of-type(4) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -320px; }
+    .footer p:nth-of-type(2) a:nth-of-type(5) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -372px; }
+
+/*# sourceMappingURL=footer.css.map */

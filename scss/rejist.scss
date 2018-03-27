@@ -1,0 +1,164 @@
+@import "header";
+@import "common";
+@import "footer";
+.content{
+    width: 960px;
+    margin: 120px auto;
+    position: relative;
+    .loginpic{
+        overflow: hidden;
+    }
+    .pic{
+        display: block;
+        width: 420px;
+        height: 370px;
+        background: url(../images/signPic.jpg) no-repeat 0 0;
+        
+        float: left;
+    }
+    .logindiv{
+        position: absolute;
+        right: 0;
+        width: 310px;
+        padding: 0 23px;
+        top: -80px;
+        .login-div-head{
+            margin-bottom: 15px;
+            line-height: 60px;
+            overflow: hidden;
+            h1{
+                line-height: 60px;
+                font-size: 20px;
+                float: left;
+                color:#ed145b;
+            }
+            p{
+                float: right;
+                font-size: 12px;
+                a{
+                    color: #ed145b;
+                }
+            }
+        }
+        form{
+            input{
+                box-shadow: none;
+                border: 1px solid #CFCFCF;
+                background-color: #fff;
+                vertical-align: middle;
+                padding: 10px 8px;
+                line-height: 1.5;
+                font-size: 14px;
+                outline: 0;
+                height: auto;
+                width: 284px;
+            }
+            .zc{
+                    display: inline-block;
+                    background: #F8296D;
+                    text-align: center;
+                    line-height: 40px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    cursor: pointer;
+                    padding: 0 30px;
+                    width: 250px;
+                    height: 40px;
+                    color: #fff;
+                    border: 0;
+                    
+                    
+            }
+            p{
+               color:#999;
+               font-size: 12px;
+               position: absolute;
+               margin-top: 4px;
+               display: none;
+            }
+            div{
+                //position: relative;
+                margin-bottom: 28px;
+                .nullnumber{
+                    
+                   margin: 0;
+                   color:#999;
+                   font-size: 12px;
+                   position: absolute;
+                   margin-top: 4px;
+                   display: none;
+                   i{
+                       display: block;
+                       float: left;
+                       
+                       width: 20px;
+                       height: 20px;
+                       background: url(../images/sign.png) no-repeat 0 -100px;
+                   }
+                   span{
+                       float: right;
+                       
+                       height: 20px;
+                       line-height: 20px;
+                   }
+                
+                }
+                .errophone{
+                   margin: 0;
+                   color:#999;
+                   font-size: 12px;
+                   position: absolute;
+                   margin-top: 4px;
+                   color: red;
+                   display: none;
+                }
+            }
+            div:nth-of-type(2){
+                input{
+                    width: 138px;   
+                }
+                a{
+                    border: 1px solid #d9d9d9;
+                    cursor: pointer;
+                    padding: 0 15px;
+                    display: inline-block;
+                    line-height: 41px;
+                    height: 41px;
+                    font-weight: 700;
+                    color: #666;
+                    text-align: center;
+                    margin-left: 10px;
+                    float: right;
+                    margin-right: 7px; 
+                    font-size: 14px;
+                    background: -webkit-linear-gradient(top,#fcfcfc,#f2f2f2);
+                }
+            }
+            >p{
+                position: static;
+                display: block;
+                margin-top: 20px;
+                margin-bottom: 42px;
+                a{
+                    color: #ed145b;
+                }
+            }
+        }
+        .col_1{
+            position: absolute;
+            height: 100%;
+            width: 8px;
+            top: 0;
+            left: -9px;
+            background: url(../images/shadow.png);
+        }
+        .col_2{
+            position: absolute;
+            height: 100%;
+            width: 8px;
+            top: 0;
+            right: -9px;
+            background: url(../images/shadow.png);
+        }
+    }
+}

@@ -1,0 +1,546 @@
+@import "common";
+@import "index_hearder";
+@import "index_footer";
+@import "index_right";
+.banner{
+    height: 350px;
+    //background: url(../images/176616_1920_350_002-web.jpg) no-repeat 51% 0px;
+    a{
+        display: block;
+        width: 1090px;
+        height: 350px;
+        margin: 0 auto;
+    }
+}
+.tab-top{
+    padding-top: 20px;
+    background: #F7F7F7;
+    ul{
+        height: 44px;
+        width: 464px;
+        margin: 0 auto;
+        border: 1px solid #666;
+        li{
+            float: left;
+            height: 44px;
+            width: 232px;
+            line-height: 44px;
+            font-size: 22px;
+            text-align: center;
+            cursor: pointer;
+            background: #f7f7f7;
+            color: black;
+            position: relative;
+        }
+
+        .fouc:after{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: 10px solid #666;
+            border-color: #666 transparent transparent transparent;
+            left: 50%;
+            margin-left: -10px;
+        }
+    } 
+    
+    .fouc{
+        color: #e6e6e6;
+        background: #666;
+    }
+    .tab-top-list{
+        width: 1090px;
+        margin: 0 auto;
+        .today-creazy{
+           
+            overflow: hidden;
+            padding-top: 20px;
+            width: 1114px;
+            a{
+                float: left;
+                margin: 0 20px 20px 0;
+            }
+        }
+        .tomorrow-creazy{
+            display: none;
+            overflow: hidden;
+            padding-top: 20px;
+            width: 1114px;
+            a{
+                float: left;
+                margin: 0 20px 20px 0;
+            }
+        }
+    }
+    
+}
+.fore-pic{
+    height: 80px;
+    width: 100%;
+    background: url(../images/54101_1920_80_001-web.jpg) no-repeat top center;
+}
+.everyday-tosee{
+    
+    width: 1090px;
+    margin: 0 auto;
+    h2{
+        width: 100%;
+        height: 28px;
+        text-indent: -9999px;
+        overflow: hidden;
+        margin: 20px 0;
+        background: url(../images/old_top_tit.jpg);
+    }
+    a img{
+        margin-left: -185px;
+        width: 1275px;
+        height: 340px;
+    }
+    .today-thing{
+        overflow: hidden;
+    }
+    .today-thing-content a:hover img{
+        opacity: .8;
+    }
+    .today-thing-content:hover a:nth-of-type(2){
+        display: block;
+    }
+    .today-thing-content{
+        position: relative;
+        //overflow: hidden;
+        margin-bottom: 10px;
+        height: 350px;
+        .thing-pic i{
+            display: block;
+            width: 106px;
+            height: 106px;
+            top: 50%;
+            left: 29%;
+            margin-left: -52px;
+            margin-top: -52px;
+            position: absolute;
+            background: url(../images/soldout1.png);
+        }
+        .today-top1{
+            position: absolute;
+            display: block;
+            top: 55px;
+            left: 55px;
+            width: 120px;
+            height: 62px;
+            background: url(../images/top.png) no-repeat;
+        }
+        .today-top2{
+            position: absolute;
+            display: block;
+            top: 55px;
+            left: 55px;
+            width: 120px;
+            height: 62px;
+            background: url(../images/top.png) no-repeat 0 -144px;
+        }
+        .today-top3{
+            position: absolute;
+            display: block;
+            top: 55px;
+            left: 55px;
+            width: 120px;
+            height: 62px;
+            background: url(../images/top.png) no-repeat 0 -72px;
+        }
+        .today-thing-content-haitao{
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                top:0;
+                left: 0;
+                overflow: hidden;
+                text-indent: -99em;
+                display: inline-block;
+                background: url(../images/new_haitao_icon.jpg);
+        }
+        >a{
+            display: block;
+            span{
+                margin-left: 10px;
+                margin-right:15px;
+                font-size: 12px; 
+                color: #999;
+                
+            }
+        }
+        a:nth-of-type(2){
+            display: none;
+            position: absolute;
+            bottom: 20px;
+            
+        }
+       
+        
+        .today-thing-content-right{
+            position: absolute;
+            height: 332px;
+            width: 382px;
+            padding: 0 40px;
+            background: #fff;
+            top: 18px;
+            right: 18px;
+            box-shadow: 0 1px 4px #c5c5c5;
+            zoom: 1;
+            
+            .lasttime{
+                color: #fff;
+                font-weight: 400;
+                text-indent: 0;
+                
+                margin-top: -1px;
+                text-align: center;
+                p{
+                        background: #333;
+                        height: 26px;
+                        line-height: 26px;
+                        padding: 0 10px;
+                        display: inline-block;
+                        font-weight: 400;
+                        font-size: 14px;
+                    span{
+                        margin-left: 3px;
+                    }
+                }
+                    
+            }
+            .introduce{
+                color: #767676;
+                line-height: 24px;
+                height: 142px;
+                display: block;
+                font-size: 16px;
+                margin-top: 36px;
+                overflow: hidden;
+                em{
+                    color: #ed145b;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+            }
+            .price{
+                margin-top: 30px;
+                em{
+                    font-style: normal;
+                    font-weight: 400;
+                    vertical-align: 6px;
+                    font-size: 20px;
+                    margin-right: 2px;
+                }
+                span{
+                    font-size: 34px;
+                    color: #000;
+                    float: left;
+                }
+                del{
+                    display: inline-block;
+                    color: #727272;
+                    font-family: arial;
+                    font-size: 12px;
+                    margin-top: 25px;
+                }
+                a{
+                    display: inline-block;
+                    height: 36px;
+                    width: 106px;
+                    line-height: 37px;
+                    color: #fff;
+                    background: #e81a62;
+                    text-align: center;
+                    font-size: 14px;
+                    float: right;
+                }
+                
+            }
+            .buy-number{
+                overflow: hidden;
+                img{
+                    float: left;
+                    margin-left: -10px;
+                    width: 134px;
+                    height: 45px;
+                }
+                span{
+                    padding-top: 10px;
+                    float: right;
+                    em{
+                        font-size: 18px;
+                        color: #b9966a;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+}
+.today-new{
+    width: 1090px;
+    margin: 0 auto;
+}
+.today_deal_tit{
+    
+    position: relative;
+    h2{
+        margin-bottom: 20px;
+        width: 1090px;
+        margin-top: 20px;
+        background: url(../images/main_tit02_02.png) no-repeat;
+        background-position: 0 -199px;
+        text-indent: -9999px;
+        border-bottom:2px solid #000000;
+    }
+    p{
+        float: right;
+        font-size: 12px;
+        padding-left: 20px;
+        color: #ed135d;
+        background: url(../images/clock.jpg) no-repeat left ;
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+}
+.today-new-list{
+    ul{
+        width: 1110px;
+        overflow: hidden;
+        li{
+            box-shadow: 2px 2px 4px #e3e3e3;
+            overflow: hidden;
+            width: 350px;
+            box-sizing: border-box;
+            background: white;
+            float: left;
+            padding: 10px;
+            margin-right:20px;
+            margin-bottom: 20px;
+            .today-news-pic:hover p{
+                display: block;
+            }
+            .today-news-pic:hover img{
+                opacity: .8;
+            }
+            .today-news-pic{
+                position: relative;
+                p{
+                    display: none;
+                    color: white;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    z-index: 1;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    overflow: hidden;
+                    background: rgba(159,108,168,.6);
+                }
+                span{
+                    width: 40px;
+                    height: 40px;
+                    float: left;
+                    overflow: hidden;
+                    text-indent: -99em;
+                    display: inline-block;
+                    z-index: 1;
+                    background: url(../images/new_haitao_icon.jpg);
+                }
+                .addbuycar{
+                    display: block;
+                    width: 79px;
+                    height: 26px;
+                    color: #fff;
+                    background: #ed155b;
+                    line-height: 26px;
+                    text-align: center;
+                    float: right;
+                }
+            }
+            .today-news-content{
+                margin-top: 10px;
+                display: block;
+                p{
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #333;
+                    height: 48px;
+                    font-weight: 400;
+                    overflow: hidden;
+                }
+                em{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #ed145b;
+                    font-family: Arial,Helvetica,sans-serif;
+                    float: left;
+                    display: inline;
+                }
+                .price-now{
+                        font-size: 22px;
+                        color: #ed145b;
+                        font-family: Arial,Helvetica,sans-serif;
+                        float: left;
+                        display: inline;
+                }
+                .price-old{
+                    text-decoration: line-through;
+                    color: #929292;
+                    padding-left: 5px;
+                    float: left;
+                    font-family: Arial;
+                    margin-top: 3px;
+                    display: inline;
+                    font-size: 12px;
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+}
+.beauty-brand{
+    width: 1090px;
+    margin: 0 auto;
+}
+.beauty-brand-top{
+    position: relative;
+    h2{
+        width: 1090px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: url(../images/main_tit02_02.png) no-repeat;
+        
+        text-indent: -9999px;
+        border-bottom:2px solid #000000;
+    }
+    p{
+        font-family: '\5B8B\4F53';
+        float: right;
+        font-size: 12px;
+        padding-left: 30px;
+        color: #ed135d;
+        background: url(../images/moreicon.png) no-repeat left ;
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+}
+.beauty-brand-bottom{
+    overflow: hidden;
+    .beauty-brand-left{
+        background: white;
+        float: left;
+        padding: 10px;
+    }
+    .beauty-brand-right ul li:hover img{
+        opacity: .8;
+    }
+    .beauty-brand-right{
+        ul{
+            width: 780px;
+            height: 440px;
+            background: #fff;
+            padding-left: 10px;
+            float: right;
+          
+        }
+       
+        ul li{
+            float: left;
+            margin: 10px 10px 0 0;
+            position: relative;
+            .beauty-brand-content{
+                position: absolute;
+                top: 70px;
+                right: 20px;
+                .content1{
+                    width: 150px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    height: 20px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-align: center;
+                }
+                .content2{
+                    text-align: center;
+                    font-size: 12px;
+                    margin-top: 5px;
+                    max-height: 40px;
+                    overflow: hidden;
+                    line-height: 20px;
+                }
+                .content3{
+                    text-align: center;
+                    font-size: 12px;
+                    margin-top: 18px;
+                    span{
+                        color: #ed145b;
+                        font-size: 16px;
+                    }
+                }
+                .content4{
+                    text-align: center;
+                    font-size: 12px;
+                    margin-top: 15px;
+                    background: url(../images/timeion.png) no-repeat 5px center;
+                }
+            }
+        }
+        
+    }
+}
+
+.body-left{
+    display: none;
+    top:15%;
+    left: 10px;
+    position: fixed;
+    width: 60px;
+    div{
+        width: 60px;
+        height: 45px;
+        font-size: 14px;
+        background: #fe6397;
+        color: #fff;
+        text-align: center;
+        padding-top: 14px;
+        border-bottom: 1px solid #fff;
+    }
+    a{
+        color: #8f8f8f;
+        font-size: 12px;
+        width: 60px;
+        height: 22px;
+        padding-top: 40px;
+        text-align: center;
+        display: block;
+        background: url(../images/pc_new.jpg);
+    }
+    .left-one:hover{
+        background-position: -88px 0;
+    }
+    .left-two{
+        background-position: 0 -124px;
+    }
+    .left-two:hover{
+        background-position: -88px -124px;
+    }
+    .left-three{
+        background-position: 0 -186px;
+    }
+    .left-three:hover{
+        background-position: -88px -186px;
+    }
+}
+
+
+

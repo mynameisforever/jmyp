@@ -1,0 +1,177 @@
+body, div, img, input, p, h1, form, ul, li, h2, dl, dt, dd {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+img {
+  display: block; }
+
+em {
+  font-style: normal;
+  font-weight: 400; }
+
+.header {
+  width: 960px;
+  height: 85px;
+  margin: 0 auto; }
+  .header .header-right {
+    padding-top: 35px; }
+  .header .logo {
+    width: 360px;
+    height: 85px;
+    overflow: hidden;
+    float: left;
+    background: url(../images/logo_new_v1.jpg) no-repeat top left; }
+  .header .top-link-lighting, .header .top-link-free, .header .top-link-code {
+    height: 31px;
+    float: right;
+    margin-right: 24px;
+    width: 110px; }
+  .header .top-link-lighting {
+    background: url(../images/header_corn_new_v2.png) no-repeat 0 -64px; }
+  .header .top-link-free {
+    width: 170px;
+    background: url(../images/gild.png); }
+  .header .top-link-code {
+    background: url(../images/header_corn_new_v2.png) no-repeat 0 0; }
+
+.footer {
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 80px; }
+  .footer p:nth-of-type(1) {
+    text-align: center;
+    padding: 14px 0 18px;
+    line-height: 23px;
+    font-size: 12px; }
+  .footer p:nth-of-type(2) {
+    text-align: center; }
+    .footer p:nth-of-type(2) a {
+      display: inline-block;
+      height: 50px;
+      width: 126px;
+      margin-right: 8px; }
+    .footer p:nth-of-type(2) a:nth-of-type(1) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -172px; }
+    .footer p:nth-of-type(2) a:nth-of-type(2) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -223px; }
+    .footer p:nth-of-type(2) a:nth-of-type(3) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -274px; }
+    .footer p:nth-of-type(2) a:nth-of-type(4) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -320px; }
+    .footer p:nth-of-type(2) a:nth-of-type(5) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -372px; }
+
+.content {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd; }
+
+.content-null {
+  width: 1090px;
+  margin: 0 auto;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  font-size: 30px; }
+
+.content-is {
+  display: none;
+  width: 1090px;
+  margin: 0 auto; }
+  .content-is .title {
+    height: 34px;
+    line-height: 34px; }
+    .content-is .title div {
+      float: left;
+      width: 56%;
+      text-align: center; }
+    .content-is .title span {
+      margin-right: 60px; }
+  .content-is .details {
+    overflow: hidden; }
+    .content-is .details .list {
+      overflow: hidden;
+      border: 1px dashed #ccc; }
+    .content-is .details input {
+      float: left;
+      margin: 20px 10px 0 20px; }
+    .content-is .details img {
+      float: left;
+      width: 60px;
+      height: 60px; }
+    .content-is .details .price {
+      font-size: 12px;
+      float: left;
+      display: block;
+      width: 80px;
+      margin-top: 10px; }
+    .content-is .details .number {
+      margin-top: 10px;
+      float: left;
+      width: 100px;
+      text-align: center; }
+      .content-is .details .number input {
+        width: 30px;
+        height: 18px;
+        margin: 0;
+        text-align: center; }
+      .content-is .details .number span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #ccc;
+        float: left;
+        cursor: pointer; }
+    .content-is .details .cont-left {
+      width: 56%;
+      float: left; }
+      .content-is .details .cont-left .con-title p {
+        margin-top: 10px;
+        font-size: 12px; }
+      .content-is .details .cont-left .con-title p:nth-of-type(1) span {
+        height: 18px;
+        margin: 0 2px 0 0;
+        line-height: 16px;
+        color: #851b97; }
+    .content-is .details .xj {
+      margin-top: 10px;
+      color: #ed145b;
+      font-size: 12px;
+      text-align: center;
+      width: 50px;
+      float: left; }
+    .content-is .details .cz {
+      margin-top: 5px;
+      width: 100px;
+      float: left;
+      text-align: center;
+      margin-left: 20px; }
+  .content-is .cont-bottom {
+    background: #fafafa;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 20px; }
+    .content-is .cont-bottom .all-number {
+      margin-left: 500px; }
+      .content-is .cont-bottom .all-number em {
+        color: #ed145b; }
+    .content-is .cont-bottom .all-price {
+      margin-left: 50px; }
+      .content-is .cont-bottom .all-price em {
+        color: #ed145b;
+        font-size: 18px; }
+    .content-is .cont-bottom a:nth-of-type(2) {
+      float: right;
+      width: 145px;
+      height: 100%;
+      margin: 0 0 0 10px;
+      background: #ed145b;
+      color: white;
+      text-align: center; }
+
+/*# sourceMappingURL=buycar.css.map */

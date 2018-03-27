@@ -1,0 +1,198 @@
+.header {
+  width: 960px;
+  height: 85px;
+  margin: 0 auto; }
+  .header .header-right {
+    padding-top: 35px; }
+  .header .logo {
+    width: 360px;
+    height: 85px;
+    overflow: hidden;
+    float: left;
+    background: url(../images/logo_new_v1.jpg) no-repeat top left; }
+  .header .top-link-lighting, .header .top-link-free, .header .top-link-code {
+    height: 31px;
+    float: right;
+    margin-right: 24px;
+    width: 110px; }
+  .header .top-link-lighting {
+    background: url(../images/header_corn_new_v2.png) no-repeat 0 -64px; }
+  .header .top-link-free {
+    width: 170px;
+    background: url(../images/gild.png); }
+  .header .top-link-code {
+    background: url(../images/header_corn_new_v2.png) no-repeat 0 0; }
+
+body, div, img, input, p, h1, form, ul, li, h2, dl, dt, dd {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+img {
+  display: block; }
+
+em {
+  font-style: normal;
+  font-weight: 400; }
+
+.footer {
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 80px; }
+  .footer p:nth-of-type(1) {
+    text-align: center;
+    padding: 14px 0 18px;
+    line-height: 23px;
+    font-size: 12px; }
+  .footer p:nth-of-type(2) {
+    text-align: center; }
+    .footer p:nth-of-type(2) a {
+      display: inline-block;
+      height: 50px;
+      width: 126px;
+      margin-right: 8px; }
+    .footer p:nth-of-type(2) a:nth-of-type(1) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -172px; }
+    .footer p:nth-of-type(2) a:nth-of-type(2) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -223px; }
+    .footer p:nth-of-type(2) a:nth-of-type(3) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -274px; }
+    .footer p:nth-of-type(2) a:nth-of-type(4) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -320px; }
+    .footer p:nth-of-type(2) a:nth-of-type(5) {
+      background: url(../images/header_corn_new_v2.png) no-repeat 0 -372px; }
+
+.content {
+  width: 960px;
+  margin: 120px auto;
+  position: relative; }
+  .content .loginpic {
+    overflow: hidden; }
+  .content .pic {
+    display: block;
+    width: 420px;
+    height: 370px;
+    background: url(../images/signPic.jpg) no-repeat 0 0;
+    float: left; }
+  .content .logindiv {
+    position: absolute;
+    right: 0;
+    width: 310px;
+    padding: 0 23px;
+    top: -80px; }
+    .content .logindiv .login-div-head {
+      margin-bottom: 15px;
+      line-height: 60px;
+      overflow: hidden; }
+      .content .logindiv .login-div-head h1 {
+        line-height: 60px;
+        font-size: 20px;
+        float: left;
+        color: #ed145b; }
+      .content .logindiv .login-div-head p {
+        float: right;
+        font-size: 12px; }
+        .content .logindiv .login-div-head p a {
+          color: #ed145b; }
+    .content .logindiv form input {
+      box-shadow: none;
+      border: 1px solid #CFCFCF;
+      background-color: #fff;
+      vertical-align: middle;
+      padding: 10px 8px;
+      line-height: 1.5;
+      font-size: 14px;
+      outline: 0;
+      height: auto;
+      width: 284px; }
+    .content .logindiv form .zc {
+      display: inline-block;
+      background: #F8296D;
+      text-align: center;
+      line-height: 40px;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+      padding: 0 30px;
+      width: 250px;
+      height: 40px;
+      color: #fff;
+      border: 0; }
+    .content .logindiv form p {
+      color: #999;
+      font-size: 12px;
+      position: absolute;
+      margin-top: 4px;
+      display: none; }
+    .content .logindiv form div {
+      margin-bottom: 28px; }
+      .content .logindiv form div .nullnumber {
+        margin: 0;
+        color: #999;
+        font-size: 12px;
+        position: absolute;
+        margin-top: 4px;
+        display: none; }
+        .content .logindiv form div .nullnumber i {
+          display: block;
+          float: left;
+          width: 20px;
+          height: 20px;
+          background: url(../images/sign.png) no-repeat 0 -100px; }
+        .content .logindiv form div .nullnumber span {
+          float: right;
+          height: 20px;
+          line-height: 20px; }
+      .content .logindiv form div .errophone {
+        margin: 0;
+        color: #999;
+        font-size: 12px;
+        position: absolute;
+        margin-top: 4px;
+        color: red;
+        display: none; }
+    .content .logindiv form div:nth-of-type(2) input {
+      width: 138px; }
+    .content .logindiv form div:nth-of-type(2) a {
+      border: 1px solid #d9d9d9;
+      cursor: pointer;
+      padding: 0 15px;
+      display: inline-block;
+      line-height: 41px;
+      height: 41px;
+      font-weight: 700;
+      color: #666;
+      text-align: center;
+      margin-left: 10px;
+      float: right;
+      margin-right: 7px;
+      font-size: 14px;
+      background: -webkit-linear-gradient(top, #fcfcfc, #f2f2f2); }
+    .content .logindiv form > p {
+      position: static;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 42px; }
+      .content .logindiv form > p a {
+        color: #ed145b; }
+    .content .logindiv .col_1 {
+      position: absolute;
+      height: 100%;
+      width: 8px;
+      top: 0;
+      left: -9px;
+      background: url(../images/shadow.png); }
+    .content .logindiv .col_2 {
+      position: absolute;
+      height: 100%;
+      width: 8px;
+      top: 0;
+      right: -9px;
+      background: url(../images/shadow.png); }
+
+/*# sourceMappingURL=rejist.css.map */
